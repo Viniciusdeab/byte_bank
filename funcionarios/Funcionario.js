@@ -5,5 +5,10 @@ export class Funcionario {
         this._cpf = cpf;
 
         this._bonificaçao = 1;
+        this._senha;
+    }
+
+    cadastrarSenha(senha){
+        this._senha = senha;
     }
 }
